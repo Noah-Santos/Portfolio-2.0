@@ -13,7 +13,7 @@ body .caveDrip {
 
 @font-face {
   font-family: batman;
-  src: url(../scss/fonts/batmfa.ttf);
+  src: url(../scss/fonts/batmfo.ttf);
 }
 @font-face {
   font-family: batman2;
@@ -28,5 +28,5 @@ body::-webkit-scrollbar-thumb:vertical {
 }
 
 * {
-  font-family: batmanWhite;
+  font-family: batman;
 }/*# sourceMappingURL=main.css.map */
