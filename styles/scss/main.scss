@@ -1,2 +1,17 @@
-@import "./partials/reset";
+// import partials
+@import "./partials/reset", "./partials/index", "./partials/font";
 
+body{
+    &::-webkit-scrollbar-thumb:vertical {
+        background: "./images/batarang.png";
+        background-size: 26px 63px;
+        display: block;
+        width: 30px;
+        height: 100px;
+    }
+}
+
+// changes font family
+*{
+    font-family: batmanWhite;
+}
