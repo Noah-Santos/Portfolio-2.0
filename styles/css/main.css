@@ -19,6 +19,9 @@ body .caveDrip {
   font-family: batman2;
   src: url(../scss/fonts/DkcForever-ZGXq.ttf);
 }
+body {
+  background-color: black;
+}
 body::-webkit-scrollbar-thumb:vertical {
   background: "./images/batarang.png";
   background-size: 26px 63px;
@@ -28,5 +31,5 @@ body::-webkit-scrollbar-thumb:vertical {
 }
 
 * {
-  font-family: batman;
+  font-family: batman2;
 }/*# sourceMappingURL=main.css.map */
