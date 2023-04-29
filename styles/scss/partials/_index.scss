@@ -22,9 +22,10 @@ body{
             color: rgb(106, 106, 106);
         }
 
-                // makes project image darker
+            // makes project image darker abd rounds borders
             .projectImg {
                 filter: brightness(50%);
+                border-radius: 3%;
             }
     }
 }

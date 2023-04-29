@@ -21,6 +21,7 @@ body .carouselProjects .card {
 }
 body .carouselProjects .projectImg {
   filter: brightness(50%);
+  border-radius: 3%;
 }
 
 @font-face {
