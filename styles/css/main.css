@@ -11,13 +11,16 @@ body .caveDrip {
   left: 0;
 }
 body .carouselProjects {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  margin-left: 14rem;
+  margin-right: 14rem;
   width: auto;
 }
 body .carouselProjects .card {
   background-color: black;
-  color: white;
+  color: rgb(106, 106, 106);
+}
+body .carouselProjects .projectImg {
+  filter: brightness(50%);
 }
 
 @font-face {

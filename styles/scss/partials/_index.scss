@@ -8,16 +8,23 @@ body{
         left: 0;
     }
 
+    // centers slideshow area between arrows
     .carouselProjects{
         margin: {
-            left: 7rem;
-            right: 7rem;
+            left: 14rem;
+            right: 14rem;
         }
         width: auto;
 
+        // makes card blend into background
         .card {
             background-color: black;
-            color: white;
+            color: rgb(106, 106, 106);
         }
+
+                // makes project image darker
+            .projectImg {
+                filter: brightness(50%);
+            }
     }
 }
