@@ -10,6 +10,15 @@ body .caveDrip {
   top: 0;
   left: 0;
 }
+body .carouselProjects {
+  margin-left: 7rem;
+  margin-right: 7rem;
+  width: auto;
+}
+body .carouselProjects .card {
+  background-color: black;
+  color: white;
+}
 
 @font-face {
   font-family: batman;

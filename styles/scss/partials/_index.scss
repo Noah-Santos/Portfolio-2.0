@@ -7,4 +7,17 @@ body{
         top: 0;
         left: 0;
     }
+
+    .carouselProjects{
+        margin: {
+            left: 7rem;
+            right: 7rem;
+        }
+        width: auto;
+
+        .card {
+            background-color: black;
+            color: white;
+        }
+    }
 }
