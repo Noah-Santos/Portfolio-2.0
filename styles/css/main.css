@@ -27,9 +27,6 @@ body .carouselProjects .card .linkButton {
   background-color: rgb(33, 38, 38);
   border-color: rgb(33, 38, 38);
 }
-body .carouselProjects .card .active {
-  filter: drop-shadow(10px 10px 0.75rem yellow);
-}
 body .carouselProjects .projectImg {
   filter: brightness(50%);
   border-radius: 3%;

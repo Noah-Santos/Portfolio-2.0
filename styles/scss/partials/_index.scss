@@ -32,11 +32,6 @@ body{
                 background-color: rgb(33, 38, 38);
                 border-color: rgb(33, 38, 38);
             }
-
-            // adds dropshadow to active card
-            .active{
-                filter: drop-shadow(10px 10px 0.75rem yellow);
-            }
         }
 
             // makes project image darker abd rounds borders
