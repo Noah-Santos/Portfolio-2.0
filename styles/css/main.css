@@ -15,9 +15,20 @@ body .carouselProjects {
   margin-right: 14rem;
   width: auto;
 }
+body .carouselProjects .carousel-item {
+  transition: 0.5s all;
+}
 body .carouselProjects .card {
   background-color: black;
   color: rgb(106, 106, 106);
+}
+body .carouselProjects .card .linkButton {
+  filter: brightness(50%);
+  background-color: rgb(33, 38, 38);
+  border-color: rgb(33, 38, 38);
+}
+body .carouselProjects .card .active {
+  filter: drop-shadow(10px 10px 0.75rem yellow);
 }
 body .carouselProjects .projectImg {
   filter: brightness(50%);

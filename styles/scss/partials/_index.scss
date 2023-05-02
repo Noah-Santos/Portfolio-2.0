@@ -16,10 +16,27 @@ body{
         }
         width: auto;
 
+        // adds transition to the project slides
+        .carousel-item{
+            transition: .5s all;
+        }
+
         // makes card blend into background
         .card {
             background-color: black;
             color: rgb(106, 106, 106);
+
+            // changes the color of the button to navigate to the project
+            .linkButton{
+                filter: brightness(50%);
+                background-color: rgb(33, 38, 38);
+                border-color: rgb(33, 38, 38);
+            }
+
+            // adds dropshadow to active card
+            .active{
+                filter: drop-shadow(10px 10px 0.75rem yellow);
+            }
         }
 
             // makes project image darker abd rounds borders
