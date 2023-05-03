@@ -8,36 +8,45 @@ body{
         left: 0;
     }
 
-    // centers slideshow area between arrows
-    .carouselProjects{
-        margin: {
-            left: 14rem;
-            right: 14rem;
-        }
-        width: auto;
+    // vertucally centers content of page
+    .projectCont{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        align-content: space-around;
 
-        // adds transition to the project slides
-        .carousel-item{
-            transition: .5s all;
-        }
-
-        // makes card blend into background
-        .card {
-            background-color: black;
-            color: rgb(106, 106, 106);
-
-            // changes the color of the button to navigate to the project
-            .linkButton{
-                filter: brightness(50%);
-                background-color: rgb(33, 38, 38);
-                border-color: rgb(33, 38, 38);
+        // centers slideshow area between arrows
+        .carouselProjects {
+            margin: {
+                left: 14rem;
+                right: 14rem;
             }
-        }
-
+    
+            width: auto;
+    
+            // adds transition to the project slides
+            .carousel-item {
+                transition: .5s all;
+            }
+    
+            // makes card blend into background
+            .card {
+                background-color: black;
+                color: rgb(106, 106, 106);
+    
+                // changes the color of the button to navigate to the project
+                .linkButton {
+                    filter: brightness(50%);
+                    background-color: rgb(33, 38, 38);
+                    border-color: rgb(33, 38, 38);
+                }
+            }
+    
             // makes project image darker abd rounds borders
             .projectImg {
                 filter: brightness(50%);
                 border-radius: 3%;
             }
+        }
     }
 }

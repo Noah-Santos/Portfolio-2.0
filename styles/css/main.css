@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
 body .caveDrip {
   width: 100%;
   height: 100vh;
@@ -10,24 +15,30 @@ body .caveDrip {
   top: 0;
   left: 0;
 }
-body .carouselProjects {
+body .projectCont {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: space-around;
+}
+body .projectCont .carouselProjects {
   margin-left: 14rem;
   margin-right: 14rem;
   width: auto;
 }
-body .carouselProjects .carousel-item {
+body .projectCont .carouselProjects .carousel-item {
   transition: 0.5s all;
 }
-body .carouselProjects .card {
+body .projectCont .carouselProjects .card {
   background-color: black;
   color: rgb(106, 106, 106);
 }
-body .carouselProjects .card .linkButton {
+body .projectCont .carouselProjects .card .linkButton {
   filter: brightness(50%);
   background-color: rgb(33, 38, 38);
   border-color: rgb(33, 38, 38);
 }
-body .carouselProjects .projectImg {
+body .projectCont .carouselProjects .projectImg {
   filter: brightness(50%);
   border-radius: 3%;
 }
