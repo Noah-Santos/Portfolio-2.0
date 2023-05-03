@@ -6,6 +6,8 @@ body{
         position: fixed;
         top: 0;
         left: 0;
+        // allows you to click through image
+        pointer-events: none;
     }
 
     // vertucally centers content of page
@@ -36,7 +38,7 @@ body{
     
                 // changes the color of the button to navigate to the project
                 .linkButton {
-                    filter: brightness(50%);
+                    filter: brightness(30%);
                     background-color: rgb(33, 38, 38);
                     border-color: rgb(33, 38, 38);
                 }
@@ -44,7 +46,7 @@ body{
     
             // makes project image darker abd rounds borders
             .projectImg {
-                filter: brightness(50%);
+                filter: brightness(25%);
                 border-radius: 3%;
             }
         }

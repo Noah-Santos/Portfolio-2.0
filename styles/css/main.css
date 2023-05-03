@@ -14,6 +14,7 @@ body .caveDrip {
   position: fixed;
   top: 0;
   left: 0;
+  pointer-events: none;
 }
 body .projectCont {
   display: flex;
@@ -34,12 +35,12 @@ body .projectCont .carouselProjects .card {
   color: rgb(106, 106, 106);
 }
 body .projectCont .carouselProjects .card .linkButton {
-  filter: brightness(50%);
+  filter: brightness(30%);
   background-color: rgb(33, 38, 38);
   border-color: rgb(33, 38, 38);
 }
 body .projectCont .carouselProjects .projectImg {
-  filter: brightness(50%);
+  filter: brightness(25%);
   border-radius: 3%;
 }
 
