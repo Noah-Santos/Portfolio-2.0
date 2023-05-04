@@ -1,0 +1,16 @@
+body{
+    // centers the grid on home screen
+    .homeGrid{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        // styles the grid sections to hold the computer screens
+        .compScreen {
+            background-color: gray;
+            height: 6rem;
+            width: 100%;
+        }
+    }
+}

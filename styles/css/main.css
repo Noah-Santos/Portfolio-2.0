@@ -52,6 +52,18 @@ body .projectCont .carouselProjects .projectImg {
   font-family: batman2;
   src: url(../scss/fonts/DkcForever-ZGXq.ttf);
 }
+body .homeGrid {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .homeGrid .compScreen {
+  background-color: gray;
+  height: 6rem;
+  width: 100%;
+}
+
 body {
   background-color: black;
 }
