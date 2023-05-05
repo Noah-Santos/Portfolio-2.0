@@ -17,7 +17,7 @@ body{
             // edits the two computer screens on the top row
             .topCompScreen{
                 background-color: rgb(122, 80, 80);
-                height: 10rem;
+                height: 13rem;
                 margin: {
                     left: .25rem;
                     right: .25rem;
@@ -28,16 +28,21 @@ body{
         // edits the bottom row of screens
         .bottomCompScreen{
             width: 80%;
+            perspective: 50rem;
 
             // styles the grid sections to hold the computer screens
             .compScreen {
                 background-color: rgb(122, 80, 80);
-                height: 10rem;
+                height: 13rem;
                 width: 100%;
                 margin: {
                     left: .25rem;
                     right: .25rem;
                 };
+                // transform: rotateX(50deg);
+                // transform: rotateY(50deg);
+                // transform: perspective(50rem);
+                // perspective: 50rem;
         
                 .testing {
                     width: 100%;

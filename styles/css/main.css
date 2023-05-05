@@ -66,16 +66,17 @@ body .homeGrid .topScreens {
 }
 body .homeGrid .topScreens .topCompScreen {
   background-color: rgb(122, 80, 80);
-  height: 10rem;
+  height: 13rem;
   margin-left: 0.25rem;
   margin-right: 0.25rem;
 }
 body .homeGrid .bottomCompScreen {
   width: 80%;
+  perspective: 50rem;
 }
 body .homeGrid .bottomCompScreen .compScreen {
   background-color: rgb(122, 80, 80);
-  height: 10rem;
+  height: 13rem;
   width: 100%;
   margin-left: 0.25rem;
   margin-right: 0.25rem;
