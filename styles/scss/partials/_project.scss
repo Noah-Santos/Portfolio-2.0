@@ -23,7 +23,6 @@ body{
                 left: 14rem;
                 right: 14rem;
             }
-    
             width: auto;
     
             // adds transition to the project slides
@@ -34,7 +33,6 @@ body{
             // makes card blend into background
             .card {
                 background-color: black;
-                color: rgb(106, 106, 106);
     
                 // changes the color of the button to navigate to the project
                 .linkButton {
@@ -44,7 +42,7 @@ body{
                 }
             }
     
-            // makes project image darker abd rounds borders
+            // makes project image darker and rounds borders
             .projectImg {
                 filter: brightness(25%);
                 border-radius: 3%;

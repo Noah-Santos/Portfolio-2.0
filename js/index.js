@@ -1,6 +1,9 @@
 $(function(){
-    // fucntion to change the page when clicked on
-    function changePage(page){
-        window.location.href = page;
-    }
+    // function to change the page when clicked on
+    $(".homeLinks").click(function(){
+        let page = $(this).attr("id");
+        window.location.href = `${page}.html`;
+    })
 })
+
+

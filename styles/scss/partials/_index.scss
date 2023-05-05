@@ -4,13 +4,48 @@ body{
         height: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
 
-        // styles the grid sections to hold the computer screens
-        .compScreen {
-            background-color: gray;
-            height: 6rem;
-            width: 100%;
+        // edits the spacing of the top row of screens
+        .topScreens{
+            margin: {
+                bottom: .5rem;
+            };
+            width: 60%;
+
+            // edits the two computer screens on the top row
+            .topCompScreen{
+                background-color: rgb(122, 80, 80);
+                height: 10rem;
+                margin: {
+                    left: .25rem;
+                    right: .25rem;
+                };
+            }
+        }
+
+        // edits the bottom row of screens
+        .bottomCompScreen{
+            width: 80%;
+
+            // styles the grid sections to hold the computer screens
+            .compScreen {
+                background-color: rgb(122, 80, 80);
+                height: 10rem;
+                width: 100%;
+                margin: {
+                    left: .25rem;
+                    right: .25rem;
+                };
+        
+                .testing {
+                    width: 100%;
+                    height: 100%;
+                    // allows you to click through text
+                    pointer-events: none;
+                }
+            }
         }
     }
 }
