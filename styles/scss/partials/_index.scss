@@ -22,6 +22,7 @@ body{
                     left: .35rem;
                     right: .35rem;
                 };
+                border-radius: .5rem;
             };
 
             // edits the top screens
@@ -46,11 +47,11 @@ body{
                 height: 13rem;
                 width: 100%;
                 margin: {
-                    top: .5rem;
+                    // top: .5rem;
                     left: .35rem;
                     right: .35rem;
                 };
-
+                border-radius: .5rem;
 
                 // transform: rotateX(50deg);
                 // transform: rotateY(50deg);

@@ -1,0 +1,15 @@
+body{
+    // makes contact grid container center
+    .contactContainer{
+        // height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        // edits the cards that will show onhover
+        .targetInfoTitle{
+            height: 50%;
+        };
+    };
+}

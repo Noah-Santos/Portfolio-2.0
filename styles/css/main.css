@@ -41,7 +41,7 @@ body .projectCont .carouselProjects .card .linkButton {
   border-color: rgb(33, 38, 38);
 }
 body .projectCont .carouselProjects .projectImg {
-  filter: brightness(25%);
+  filter: brightness(55%);
   border-radius: 3%;
 }
 
@@ -69,6 +69,7 @@ body .homeGrid .topScreens .topCompScreen {
   height: 13rem;
   margin-left: 0.35rem;
   margin-right: 0.35rem;
+  border-radius: 0.5rem;
 }
 body .homeGrid .bottomCompScreen {
   width: 80%;
@@ -76,9 +77,9 @@ body .homeGrid .bottomCompScreen {
 body .homeGrid .bottomCompScreen .compScreen {
   height: 13rem;
   width: 100%;
-  margin-top: 0.5rem;
   margin-left: 0.35rem;
   margin-right: 0.35rem;
+  border-radius: 0.5rem;
 }
 body .homeGrid .bottomCompScreen .compScreen .testing {
   width: 100%;
@@ -93,6 +94,16 @@ body .homeGrid .bottomCompScreen #project {
 }
 body .homeGrid .bottomCompScreen #about {
   background-color: rgb(122, 80, 80);
+}
+
+body .contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .contactContainer .targetInfoTitle {
+  height: 50%;
 }
 
 body {
