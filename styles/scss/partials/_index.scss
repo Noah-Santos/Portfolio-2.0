@@ -19,26 +19,39 @@ body{
                 background-color: rgb(122, 80, 80);
                 height: 13rem;
                 margin: {
-                    left: .25rem;
-                    right: .25rem;
+                    left: .35rem;
+                    right: .35rem;
                 };
-            }
+            };
+
+            // edits the top screens
+            // top left
+            #contact{
+                // transform: skew(-3deg, -5deg);
+            };
+            // top right
+            #blank{
+                // transform: skew(3deg, 5deg);
+            };
         }
 
         // edits the bottom row of screens
         .bottomCompScreen{
             width: 80%;
-            perspective: 50rem;
+            // perspective: 50rem;
 
             // styles the grid sections to hold the computer screens
             .compScreen {
-                background-color: rgb(122, 80, 80);
+                // background-color: rgb(122, 80, 80);
                 height: 13rem;
                 width: 100%;
                 margin: {
-                    left: .25rem;
-                    right: .25rem;
+                    top: .5rem;
+                    left: .35rem;
+                    right: .35rem;
                 };
+
+
                 // transform: rotateX(50deg);
                 // transform: rotateY(50deg);
                 // transform: perspective(50rem);
@@ -51,6 +64,26 @@ body{
                     pointer-events: none;
                 }
             }
+
+            // skews each of the bottom screens
+            // bottom right
+            #resume {
+                // transform: skew(3deg, 5deg);
+                background-color: rgb(122, 80, 80);
+            };
+
+            // bottom left
+            #project {
+                // transform: skew(-3deg, -5deg);
+                // transform: perspective(2rem);
+                background-color: rgb(122, 80, 80);
+            };
+
+            // bottom middle
+            #about {
+                // transform: skew(5deg);
+                background-color: rgb(122, 80, 80);
+            };
         }
     }
 }
