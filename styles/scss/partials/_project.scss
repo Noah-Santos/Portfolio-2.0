@@ -8,6 +8,7 @@ body{
         left: 0;
         // allows you to click through image
         pointer-events: none;
+        z-index: 5;
     }
 
     // vertically centers content of page
