@@ -12,7 +12,9 @@
 </head>
 <body>
     <!-- adds cave image to the page -->
-    <!-- <img src="../images/Cave2.png" alt="cave" class="caveDrip m-0 z-3"> -->
+    <!-- <img src="../images/Cave4.png" alt="cave" class="caveDrip m-0 z-3 w-100"> -->
+    <!-- adds background image -->
+    <!-- <img src="../images/background.PNG" alt="background" class="background w-100 h-100"> -->
 
     <!-- grid to position the computers that act like navigation -->
     <div class="container text-center homeGrid active">
@@ -44,10 +46,11 @@
 
     <!-- contact section -->
     <div class="container text-center contactCont deactive">
-        <div class="row">
-            <!-- container to hold a person name -->
-            <div class="col">
-                <div class="card mb-3 targetInfo" style="max-width: 540px;">
+        <div class="row contactRow">
+            <!-- container to hold one piece contact info -->
+            <div class="col contactSection">
+                Email
+                <div class="card mb-3 targetInfo" id="email" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="../images/batarang.png" class="img-fluid rounded-start" alt="...">
@@ -62,15 +65,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
-            <!-- container to hold a person name -->
-            <div class="col person">
-                <div class="card mb-3 targetInfo" style="max-width: 540px;">
+            <!-- container to hold one piece contact info -->
+            <div class="col contactSection">
+                Phone Number
+                <div class="card mb-3 targetInfo" id="phoneNumber" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="../images/batarang.png" class="img-fluid rounded-start" alt="...">
@@ -85,21 +89,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
         </div>
     
-        <div class="row">
-            <div class="col">
+        <div class="row contactRow">
+            <div class="col contactSection">
                 Column
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
-            <!-- container to hold a person name -->
-            <div class="col">
-                <div class="card mb-3 targetInfo" style="max-width: 540px;">
+            <!-- container to hold one piece contact info -->
+            <div class="col contactSection">
+                Github
+                <div class="card mb-3 targetInfo" id="github" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="../images/batarang.png" class="img-fluid rounded-start" alt="...">
@@ -114,21 +119,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
         </div>
     
-        <div class="row">
-            <div class="col">
+        <div class="row contactRow">
+            <div class="col contactSection">
                 Column
             </div>
-            <!-- container to hold a person name -->
-            <div class="col">
-                <div class="card mb-3 targetInfo" style="max-width: 540px;">
+            <!-- container to hold one piece contact info -->
+            <div class="col contactSection">
+                Address
+                <div class="card mb-3 targetInfo" id="address" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="../images/batarang.png" class="img-fluid rounded-start" alt="...">
@@ -143,27 +149,28 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
         </div>
     
-        <div class="row">
-            <div class="col">
+        <div class="row contactRow">
+            <div class="col contactSection">
                 Column
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
-            <!-- container to hold a person name -->
-            <div class="col">
-                <div class="card mb-3 targetInfo" style="max-width: 540px;">
+            <!-- container to hold one piece contact info -->
+            <div class="col contactSection">
+                School
+                <div class="card mb-3 targetInfo" id="school" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="../images/batarang.png" class="img-fluid rounded-start" alt="...">
@@ -178,11 +185,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col contactSection">
                 Column
             </div>
-            <!-- container to hold a person name -->
-            <div class="col">
+            <!-- container to hold one piece contact info -->
+            <div class="col contactSection">
+
                 <div class="card mb-3 targetInfo" style="max-width: 540px;">
                     <div class="row g-0">
                         <div class="col-md-4">
@@ -207,7 +215,7 @@
 
 
     <!-- project section -->
-    <div class="container text-center projectCont deactive">
+    <div class="container text-center projectCont deactive h-100">
         <div class="row">
             <div class="col spotlightProject">
                 <!-- carousel to hold projects -->
@@ -368,7 +376,7 @@
 
     <!-- div that holds door -->
     <div class="door">
-
+        <img src="../images/door.PNG" alt="door" class="door">
     </div>
 
     <script src="../js/index.js"></script>

@@ -10,3 +10,8 @@ body, html{
     height: 100%;
     width: 100%;
 }
+
+// gets rid of the scrollbar
+body{
+    overflow: hidden;
+}
