@@ -125,6 +125,30 @@ body .contactCont .contactRow .contactSection .targetInfo {
   display: none;
 }
 
+body .aboutCont {
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+body .nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+body .nav .burger {
+  position: fixed;
+  right: 1.3rem;
+  filter: invert(0.75);
+}
+body .nav .navTab {
+  background-color: rgb(56, 56, 56);
+  color: rgb(177, 177, 177);
+}
+body .nav .navTab .navLink {
+  color: rgb(177, 177, 177);
+}
+
 body {
   background-color: black;
 }

@@ -17,7 +17,7 @@
     <!-- <img src="../images/background.PNG" alt="background" class="background w-100 h-100"> -->
 
     <!-- grid to position the computers that act like navigation -->
-    <div class="container text-center homeGrid active">
+    <div class="container text-center homeGrid homeCont contentPage active">
         <div class="row topScreens">
             <div class="col topCompScreen homeLinks homeScreens" id="contactCont">
                 <p class="testing">contact</p>
@@ -45,7 +45,7 @@
 
 
     <!-- contact section -->
-    <div class="container text-center contactCont deactive">
+    <div class="container text-center contactCont contentPage deactive">
         <div class="row contactRow">
             <!-- container to hold one piece contact info -->
             <div class="col contactSection">
@@ -215,7 +215,7 @@
 
 
     <!-- project section -->
-    <div class="container text-center projectCont deactive h-100">
+    <div class="container text-center projectCont contentPage deactive h-100">
         <div class="row">
             <div class="col spotlightProject">
                 <!-- carousel to hold projects -->
@@ -380,7 +380,7 @@
 
 
     <!-- about section -->
-    <div class="d-flex p-2 aboutSect deactive">
+    <div class="d-flex p-2 aboutSect contentPage deactive">
 
     </div>
 
@@ -388,6 +388,49 @@
     <div class="door">
         <img src="../images/door.PNG" alt="door" class="door">
     </div>
+
+    <!-- navbar -->
+    <nav class="navbar fixed-top nav">
+        <div class="container-fluid">
+            <!-- section for the burger to click to open navbar -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon burger"></span>
+            </button>
+            <!-- navbar tab that pops up when burger clicked -->
+            <div class="offcanvas offcanvas-end navTab" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!-- title of the navbar -->
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navbar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <!-- home link -->
+                        <li class="nav-item">
+                            <a class="nav-link navLink active test" id="home" aria-current="page">Home</a>
+                        </li>
+                        <!-- contact link -->
+                        <li class="nav-item">
+                            <a class="nav-link navLink" id="contact">Contact</a>
+                        </li>
+                        <!-- proejct link -->
+                        <li class="nav-item">
+                            <a class="nav-link navLink" id="project">Project</a>
+                        </li>
+                        <!-- about link -->
+                        <li class="nav-item">
+                            <a class="nav-link navLink" id="about">About</a>
+                        </li>
+                        <!-- resume link -->
+                        <li class="nav-item">
+                            <a class="nav-link navLink" id="resume">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <script src="../js/index.js"></script>
     <script src="../js/contact.js"></script>

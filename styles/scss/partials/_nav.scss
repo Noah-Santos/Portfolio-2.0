@@ -1,0 +1,26 @@
+body{
+    // edits nav bar to sit on top
+    .nav{
+        position: absolute;
+        top: 0; left: 0;
+        z-index: 4;
+
+        // makes burger position to right
+        .burger{
+            position: fixed;
+            right: 1.3rem;
+            filter: invert(.75);
+        }
+
+        // makes nav darker
+        .navTab{
+            background-color: rgb(56, 56, 56);
+            color: rgb(177, 177, 177);
+
+            // edits color of nav links
+            .navLink{
+                color: rgb(177, 177, 177);
+            }
+        }
+    }
+}
