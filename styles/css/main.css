@@ -126,8 +126,14 @@ body .contactCont .contactRow .contactSection .targetInfo {
 }
 
 body .aboutCont {
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-content: space-around;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
+body .aboutCont .accordionInfo {
+  width: 80%;
 }
 
 body .nav {
