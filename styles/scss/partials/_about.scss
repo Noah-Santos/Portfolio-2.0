@@ -5,13 +5,20 @@ body{
         justify-content: space-around;
         flex-direction: row;
         align-content: center;
-        height: 100%;
-        width: 100%;
-
         // horizontally aligns the accordion
         .accordionInfo{
-            // text-align: center;
-            width: 80%;
+            width: 70%;
+
+            // edits the image of me
+            .myImage{
+                padding: {
+                    right: 1rem;
+                    bottom: .25rem;
+                };
+                border-radius: 100%;
+                float: left;
+                width: 10rem;
+            }
         }
     }
 }

@@ -23,7 +23,6 @@ body .caveDrip {
   z-index: 5;
 }
 body .projectCont {
-  display: flex;
   flex-wrap: wrap;
   align-content: space-around;
 }
@@ -130,11 +129,16 @@ body .aboutCont {
   justify-content: space-around;
   flex-direction: row;
   align-content: center;
-  height: 100%;
-  width: 100%;
 }
 body .aboutCont .accordionInfo {
-  width: 80%;
+  width: 70%;
+}
+body .aboutCont .accordionInfo .myImage {
+  padding-right: 1rem;
+  padding-bottom: 0.25rem;
+  border-radius: 100%;
+  float: left;
+  width: 10rem;
 }
 
 body .nav {
