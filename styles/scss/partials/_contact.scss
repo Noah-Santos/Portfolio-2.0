@@ -1,29 +1,23 @@
 body{
+    // allows contact section to be centered
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+
     // makes contact grid container center
     .contactCont{
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        align-content: space-evenly;
+        justify-content: space-evenly;
+        height: 60%;
         border: 10px solid rgb(68, 47, 30);
         background-color: rgb(10, 54, 10);
-
-        // makes rows bigger
-        .contactRow{
-            // height: 150%;
-
-            // makes the section taller
-            .contactSection {
-                // height: 150%;
         
-                // edits the cards that will show onhover
-                .targetInfo {
-                    height: 50%;
-                    display: none;
-                }
-        
-                // edits the email container
-            };
-        }
-        
+        // edits the cards that will show onhover
+        .targetInfo {
+            height: 50%;
+            display: none;
+        };
     };
 }

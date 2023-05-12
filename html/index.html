@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- adds cave image to the page -->
-    <!-- <img src="../images/Cave4.png" alt="cave" class="caveDrip m-0 z-3 w-100"> -->
+    <img src="../images/Cave4.png" alt="cave" class="caveDrip m-0 z-3 w-100">
     <!-- adds background image -->
     <!-- <img src="../images/background.PNG" alt="background" class="background w-100 h-100"> -->
 
@@ -46,7 +46,7 @@
 
     <!-- contact section -->
     <div class="container text-center contactCont contentPage deactive">
-        <div class="row contactRow">
+        <div class="row contactRow w-100">
             <!-- container to hold one piece contact info -->
             <div class="col contactSection">
                 Email
@@ -94,7 +94,7 @@
             </div>
         </div>
     
-        <div class="row contactRow">
+        <div class="row contactRow w-100">
             <div class="col contactSection">
                 Column
             </div>
@@ -127,7 +127,7 @@
             </div>
         </div>
     
-        <div class="row contactRow">
+        <div class="row contactRow w-100">
             <div class="col contactSection">
                 Column
             </div>
@@ -160,7 +160,7 @@
             </div>
         </div>
     
-        <div class="row contactRow">
+        <div class="row contactRow w-100">
             <div class="col contactSection">
                 Column
             </div>
@@ -188,8 +188,11 @@
             <div class="col contactSection">
                 Column
             </div>
-            <!-- container to hold one piece contact info -->
             <div class="col contactSection">
+                Column
+            </div>
+            <!-- container to hold one piece contact info -->
+            <!-- <div class="col contactSection">
 
                 <div class="card mb-3 targetInfo" style="max-width: 540px;">
                     <div class="row g-0">
@@ -205,7 +208,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -381,6 +384,20 @@
 
     <!-- about section -->
     <div class="aboutCont contentPage deactive w-100 h-100">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
         <!-- creates accordian sections -->
         <div class="accordion accordionInfo" id="accordionExample">
             <div class="accordion-item">
@@ -393,7 +410,7 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <img src="../images/porfile.jpg" alt="me" class="myImage">
-                        <p>My name is Noah Santos. I am a junior in high school attending Sandra Day O'Connor and West-MEC NEC. I am currently learning to code. I excel at completing tasks and love working with my peers. I love friendly banter and making jokes with my friends. I enjoy teasing my friends and family and watching how they react. I am supposedly a smart person but can be fairly emotionally absent at times.</p>
+                        My name is Noah Santos. I am a junior in high school attending Sandra Day O'Connor and West-MEC NEC. I am currently learning to code. I excel at completing tasks and love working with my peers. I love friendly banter and making jokes with my friends. I enjoy teasing my friends and family and watching how they react. I am supposedly a smart person but can be fairly emotionally absent at times.
                     </div>
                 </div>
             </div>
@@ -406,11 +423,7 @@
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                        within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        I love playing all sorts of games in my free time. I used to play on my school’s tennis team and played for JV. I don’t play much anymore, but it’s fun to play recreationally. I love board games, especially competitive ones. It’s fun to watch friends and family destroy each other in games and listen to all the screaming between the players. It’s also a good way to lose friends. As for video games, I love playing strategy games, military games, and Minecraft. I am a pretty big history nerd and love learning about different wars, especially WW2, and I am always watching documentaries to learn more.
                     </div>
                 </div>
             </div>
@@ -423,7 +436,10 @@
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        I plan to get an internship in my senior year of high school in order to further my experience and knowledge.
+                        My goal is to acquire an internship in my senior year of high school in order to get more experience in the working
+                        field and to get a feel for how the real world is going to be. After high school, I plan to go to ASU or UTD in order to
+                        get my Bachelor’s in computer science. I’ll look for more internships, so I can get more experience under my belt. After
+                        college, I plan to get a job as a Software Engineer.
                     </div>
                 </div>
             </div>
@@ -431,16 +447,15 @@
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                       Hobbies
+                       Backstory
                     </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                        plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go
-                        within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        So how did I start programming? I started learning to program during the first summer quarantine. We had a book for
+                        beginners. It walked me through the basics of Python such as lists, data types, arrays, etc. I finished the book and
+                        took the programming classes at my school. Ever since, I’ve continued to take more classes and am trying to further my
+                        knowledge.
                     </div>
                 </div>
             </div>
