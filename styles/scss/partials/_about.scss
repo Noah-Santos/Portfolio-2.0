@@ -2,15 +2,22 @@ body{
     // centers about page content
     .aboutCont{
         flex-wrap: wrap;
-        justify-content: space-around;
-        flex-direction: row;
+        justify-content: center;
+        flex-direction: column;
         align-content: center;
-        // horizontally aligns the accordion
-        .accordionInfo{
-            width: 70%;
+
+        // makes about section a little smaller than page width
+        .aboutSection{
+            width: 85%;
+
+            // edits the nav links
+            .navNavigation{
+                position: relative;
+                right: 1rem;
+            }
 
             // edits the image of me
-            .myImage{
+            .myImage {
                 padding: {
                     right: 1rem;
                     bottom: .25rem;
@@ -19,6 +26,10 @@ body{
                 float: left;
                 width: 10rem;
             }
+        }
+        // horizontally aligns the accordion
+        .accordionInfo{
+            width: 70%;
         }
     }
 }

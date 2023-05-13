@@ -137,19 +137,26 @@ body .contactCont .targetInfo {
 
 body .aboutCont {
   flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
   align-content: center;
 }
-body .aboutCont .accordionInfo {
-  width: 70%;
+body .aboutCont .aboutSection {
+  width: 85%;
 }
-body .aboutCont .accordionInfo .myImage {
+body .aboutCont .aboutSection .navNavigation {
+  position: relative;
+  right: 1rem;
+}
+body .aboutCont .aboutSection .myImage {
   padding-right: 1rem;
   padding-bottom: 0.25rem;
   border-radius: 100%;
   float: left;
   width: 10rem;
+}
+body .aboutCont .accordionInfo {
+  width: 70%;
 }
 
 body .nav {

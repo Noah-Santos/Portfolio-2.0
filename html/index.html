@@ -385,45 +385,56 @@
 
     <!-- about section -->
     <div class="aboutCont contentPage deactive w-100 h-100">
-        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading1">First</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#scrollspyHeading2">Second</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                        aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-            <h4 id="scrollspyHeading1">First heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading2">Second heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading3">Third heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading4">Fourth heading</h4>
-            <p>...</p>
-            <h4 id="scrollspyHeading5">Fifth heading</h4>
-            <p>...</p>
+        <div class="aboutSection">
+            <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+                <a class="navbar-brand" href="#">About</a>
+                <ul class="nav nav-pills navNavigation">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Hobbies</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#scrollspyHeading3">Goals</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading4">Backstory</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+                data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <h4 id="scrollspyHeading1">About Me</h4>
+                <p>
+                    <img src="../images/porfile.jpg" alt="me" class="myImage">
+                My name is Noah Santos. I am a junior in high school attending Sandra Day O'Connor and West-MEC NEC. I am currently
+                learning to code. I excel at completing tasks and love working with my peers. I love friendly banter and making jokes
+                with my friends. I enjoy teasing my friends and family and watching how they react. I am supposedly a smart person but
+                can be fairly emotionally absent at times.</p>
+                <hr>
+                <h4 id="scrollspyHeading2">Hobbies</h4>
+                <p>...</p>
+                <hr>
+                <h4 id="scrollspyHeading3">Goals</h4>
+                <p>...</p>
+                <hr>
+                <h4 id="scrollspyHeading4">Backstory</h4>
+                <p>...</p>
+                <!-- <h4 id="scrollspyHeading5">Fifth heading</h4>
+                <p>...</p> -->
+            </div>
         </div>
+        
 
         <!-- creates accordian sections -->
-        <div class="accordion accordionInfo" id="accordionExample">
+        <!-- <div class="accordion accordionInfo" id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -483,7 +494,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <!-- div that holds door -->
