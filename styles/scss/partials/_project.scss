@@ -18,8 +18,8 @@ body{
         // centers slideshow area between arrows
         .carouselProjects {
             margin: {
-                left: 14rem;
-                right: 14rem;
+                left: 10rem;
+                right: 10rem;
             }
             width: auto;
     
@@ -30,19 +30,44 @@ body{
     
             // makes card blend into background
             .card {
-                background-color: black;
-    
-                // changes the color of the button to navigate to the project
-                .linkButton {
-                    // filter: brightness(30%);
-                    background-color: rgb(33, 38, 38);
-                    border-color: rgb(33, 38, 38);
-                }
+                background-color: white;
+                border-radius: 3%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
 
-                // edits the color of the title text
-                .card-title{
-                    color: rgb(94, 94, 94);
+                // centers the info on the middle of the card
+                .card-body{
+                    padding: {
+                        top: 2rem;
+                        bottom: 2rem;
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    // changes the color of the button to navigate to the project
+                    .linkButton {
+                        // filter: brightness(30%);
+                        background-color: rgb(33, 38, 38);
+                        border-color: rgb(33, 38, 38);
+                        width: 60%;
+                    }
+                
+                    // edits the color of the title text
+                    .card-title {
+                        color: rgb(33, 38, 38);
+                    }
+                
+                    // edits text color in card
+                    .card-text {
+                        color: rgb(53, 61, 61);
+                    }
                 }
+    
+                
             }
     
             // makes project image darker and rounds borders
