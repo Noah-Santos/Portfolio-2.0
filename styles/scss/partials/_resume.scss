@@ -1,0 +1,18 @@
+body{
+    // centers the resume content
+    .resumeCont{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+        // makes resume accordion slightly shorter than screen
+        .resumeAccordion{
+            width: 80%;
+
+            // edits text color
+            .resumeInfo{
+                color: rgb(33, 38, 38);
+            }
+        }
+    }
+}

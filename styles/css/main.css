@@ -204,6 +204,18 @@ body .nav .navTab .navLink {
   color: rgb(177, 177, 177);
 }
 
+body .resumeCont {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+body .resumeCont .resumeAccordion {
+  width: 80%;
+}
+body .resumeCont .resumeAccordion .resumeInfo {
+  color: rgb(33, 38, 38);
+}
+
 body {
   background-color: black;
 }
