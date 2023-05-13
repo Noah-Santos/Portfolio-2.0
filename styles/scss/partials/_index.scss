@@ -23,12 +23,31 @@ body{
                     right: .35rem;
                 };
                 border-radius: .5rem;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-content: center;
             };
         };
 
         // edits the bottom row of screens
         .bottomCompScreen{
             width: 80%;
+
+            // styles the grid sections to hold the computer screens
+                .botCompScreen {
+                    background-color: rgb(122, 80, 80);
+                    height: 13rem;
+                    margin: {
+                        left: .35rem;
+                        right: .35rem;
+                    };
+                    border-radius: .5rem;
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    align-content: center;
+                };
 
             // styles the grid sections to hold the computer screens
             .compScreen {
@@ -41,6 +60,11 @@ body{
                     right: .35rem;
                 };
                 border-radius: .5rem;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-items: center;
+                
         
                 .testing {
                     width: 100%;

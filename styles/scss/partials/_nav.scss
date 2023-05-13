@@ -9,7 +9,8 @@ body{
         .burger{
             position: fixed;
             right: 1.3rem;
-            filter: invert(.75);
+            width: 3rem;
+            filter: invert(1);
         }
 
         // makes nav darker

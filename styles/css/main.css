@@ -90,9 +90,24 @@ body .homeGrid .topScreens .topCompScreen {
   margin-left: 0.35rem;
   margin-right: 0.35rem;
   border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 body .homeGrid .bottomCompScreen {
   width: 80%;
+}
+body .homeGrid .bottomCompScreen .botCompScreen {
+  background-color: rgb(122, 80, 80);
+  height: 13rem;
+  margin-left: 0.35rem;
+  margin-right: 0.35rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 body .homeGrid .bottomCompScreen .compScreen {
   background-color: rgb(122, 80, 80);
@@ -101,6 +116,10 @@ body .homeGrid .bottomCompScreen .compScreen {
   margin-left: 0.35rem;
   margin-right: 0.35rem;
   border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 body .homeGrid .bottomCompScreen .compScreen .testing {
   width: 100%;
@@ -194,7 +213,8 @@ body .nav {
 body .nav .burger {
   position: fixed;
   right: 1.3rem;
-  filter: invert(0.75);
+  width: 3rem;
+  filter: invert(1);
 }
 body .nav .navTab {
   background-color: rgb(56, 56, 56);
@@ -218,11 +238,4 @@ body .resumeCont .resumeAccordion .resumeInfo {
 
 body {
   background-color: black;
-}
-body::-webkit-scrollbar-thumb:vertical {
-  background: "./images/batarang.png";
-  background-size: 26px 63px;
-  display: block;
-  width: 30px;
-  height: 100px;
 }/*# sourceMappingURL=main.css.map */
