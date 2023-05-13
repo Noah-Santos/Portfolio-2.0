@@ -27,6 +27,5 @@ $(function(){
             // clears queue
             $(".door").clearQueue();
         });
-        
     });
 })
