@@ -1,14 +1,14 @@
 body{
     // centers about page content
     .aboutCont{
-        flex-wrap: wrap;
         justify-content: center;
-        flex-direction: column;
-        align-content: center;
 
         // makes about section a little smaller than page width
         .aboutSection{
             width: 85%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
             // edits the nav links
             .navNavigation{
@@ -16,15 +16,31 @@ body{
                 right: 1rem;
             }
 
-            // edits the image of me
-            .myImage {
-                padding: {
-                    right: 1rem;
-                    bottom: .25rem;
+            // edits the height of the text section
+            .aboutContent{
+                height: 40%;
+                overflow-y: scroll;
+
+                // edits the title of each section
+                .heading {
+                    color: rgb(33, 38, 38);
+                }
+            
+                // edits the text color
+                .aboutText {
+                    color: rgb(53, 61, 61);
+            
+                    // edits the image of me
+                    .myImage {
+                        padding: {
+                            right: 1rem;
+                            bottom: .25rem;
+                        };
+                        border-radius: 100%;
+                        float: left;
+                        width: 10rem;
+                    }
                 };
-                border-radius: 100%;
-                float: left;
-                width: 10rem;
             }
         }
         // horizontally aligns the accordion

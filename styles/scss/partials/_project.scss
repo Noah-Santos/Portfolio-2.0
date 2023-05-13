@@ -34,15 +34,20 @@ body{
     
                 // changes the color of the button to navigate to the project
                 .linkButton {
-                    filter: brightness(30%);
+                    // filter: brightness(30%);
                     background-color: rgb(33, 38, 38);
                     border-color: rgb(33, 38, 38);
+                }
+
+                // edits the color of the title text
+                .card-title{
+                    color: rgb(94, 94, 94);
                 }
             }
     
             // makes project image darker and rounds borders
             .projectImg {
-                filter: brightness(55%);
+                // filter: brightness(55%);
                 border-radius: 3%;
             }
         }
